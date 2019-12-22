@@ -54,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution13_2">
+  <component name="RunManager" selected="Application.Solution5">
     <configuration name="Solution13_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution13_2" />
       <module name="leetcode" />
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution66" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution66" />
+    <configuration name="Solution5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution5" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,19 +91,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution66" />
       <item itemvalue="Application.Solution67" />
       <item itemvalue="Application.Solution3" />
       <item itemvalue="Application.Solution7" />
       <item itemvalue="Application.Solution13_2" />
+      <item itemvalue="Application.Solution5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution5" />
         <item itemvalue="Application.Solution13_2" />
         <item itemvalue="Application.Solution7" />
         <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution67" />
-        <item itemvalue="Application.Solution66" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +126,8 @@
       <workItem from="1576744632362" duration="253000" />
       <workItem from="1576110920215" duration="1860000" />
       <workItem from="1576500914336" duration="598000" />
-      <workItem from="1576832809297" duration="3915000" />
+      <workItem from="1576832809297" duration="4007000" />
+      <workItem from="1576896874817" duration="10241000" />
     </task>
     <servers />
   </component>
