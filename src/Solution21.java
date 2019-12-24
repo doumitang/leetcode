@@ -6,7 +6,7 @@ public class Solution21 {
     }
 
     /**
-     * 归并排序的合并步骤
+     * 归并排序的合并步骤，时间O(m + n)，空间因为是链表不需要额外的空间所以是O(1)
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Merge Two Sorted Lists.
      * Memory Usage: 39.8 MB, less than 16.16% of Java online submissions for Merge Two Sorted Lists.
      * @param l1
