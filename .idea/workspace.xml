@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4677b652-2499-44cc-a47b-fea8a3d78a07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution13_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution13_2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +56,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution4">
+  <component name="RunManager" selected="Application.Solution6">
     <configuration name="Solution13_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution13_2" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution3" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,27 +78,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution7" />
+    <configuration name="Solution6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution6" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution8" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution3" />
-      <item itemvalue="Application.Solution7" />
       <item itemvalue="Application.Solution13_2" />
       <item itemvalue="Application.Solution5" />
       <item itemvalue="Application.Solution4" />
+      <item itemvalue="Application.Solution8" />
+      <item itemvalue="Application.Solution6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution6" />
+        <item itemvalue="Application.Solution8" />
         <item itemvalue="Application.Solution4" />
         <item itemvalue="Application.Solution5" />
         <item itemvalue="Application.Solution13_2" />
-        <item itemvalue="Application.Solution7" />
-        <item itemvalue="Application.Solution3" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +131,8 @@
       <workItem from="1576832809297" duration="4007000" />
       <workItem from="1576896874817" duration="10594000" />
       <workItem from="1577060833370" duration="59000" />
-      <workItem from="1577106805261" duration="4667000" />
+      <workItem from="1577106805261" duration="4894000" />
+      <workItem from="1577322336179" duration="9208000" />
     </task>
     <servers />
   </component>

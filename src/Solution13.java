@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class Solution13 {
     /**
-     *
+     * 关键：减法的情况都是只包含一个在左边的字符
      * Runtime: 6 ms, faster than 51.70% of Java online submissions for Roman to Integer.
      * Memory Usage: 35.8 MB, less than 100.00% of Java online submissions for Roman to Integer.
      * @param s

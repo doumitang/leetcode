@@ -3,6 +3,7 @@ import java.util.Map;
 
 public class Solution13_2 {
     /**
+     * 先统一算成加法，如果是减法就减两倍的回来
      * Runtime: 5 ms, faster than 59.33% of Java online submissions for Roman to Integer.
      * Memory Usage: 36.5 MB, less than 100.00% of Java online submissions for Roman to Integer.
      * @param s
