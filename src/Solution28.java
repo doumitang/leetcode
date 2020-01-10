@@ -2,7 +2,7 @@ import com.sun.deploy.net.offline.WIExplorerOfflineHandler;
 
 public class Solution28 {
     /**
-     * 自己实现KMP算法
+     * 自己实现KMP算法，时间O(m + n)，空间O(n)
      * Runtime: 1 ms, faster than 66.60% of Java online submissions for Implement strStr().
      * Memory Usage: 36.1 MB, less than 100.00% of Java online submissions for Implement strStr().
      * @param haystack

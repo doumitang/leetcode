@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4677b652-2499-44cc-a47b-fea8a3d78a07" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution148.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution148.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution28.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution147">
+  <component name="RunManager" selected="Application.Solution572">
     <configuration name="Solution147" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution147" />
       <module name="leetcode" />
@@ -77,13 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution15" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution16" />
       <module name="leetcode" />
@@ -91,20 +84,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution572" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution572" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Solution15" />
       <item itemvalue="Application.Solution16" />
       <item itemvalue="Application.Solution148_2" />
       <item itemvalue="Application.Solution148" />
       <item itemvalue="Application.Solution147" />
+      <item itemvalue="Application.Solution572" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution572" />
         <item itemvalue="Application.Solution147" />
         <item itemvalue="Application.Solution148_2" />
         <item itemvalue="Application.Solution148" />
         <item itemvalue="Application.Solution16" />
-        <item itemvalue="Application.Solution15" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +136,8 @@
       <workItem from="1577415889164" duration="11000" />
       <workItem from="1577672944566" duration="5312000" />
       <workItem from="1578054611927" duration="4179000" />
-      <workItem from="1578396971351" duration="10759000" />
+      <workItem from="1578396971351" duration="14316000" />
+      <workItem from="1578530033397" duration="6563000" />
     </task>
     <servers />
   </component>
