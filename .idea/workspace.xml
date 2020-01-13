@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4677b652-2499-44cc-a47b-fea8a3d78a07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Solution28.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Solution28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Solution572$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Solution572$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Solution572.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Solution572.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Solution28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution28.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,16 +59,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution572">
-    <configuration name="Solution147" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution147" />
+  <component name="RunManager">
+    <configuration name="Solution10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution10" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution148" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution148" />
+    <configuration name="Solution147" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution147" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution16" />
+    <configuration name="Solution14_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution14_2" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,19 +96,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution16" />
       <item itemvalue="Application.Solution148_2" />
-      <item itemvalue="Application.Solution148" />
       <item itemvalue="Application.Solution147" />
       <item itemvalue="Application.Solution572" />
+      <item itemvalue="Application.Solution10" />
+      <item itemvalue="Application.Solution14_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution14_2" />
+        <item itemvalue="Application.Solution10" />
         <item itemvalue="Application.Solution572" />
         <item itemvalue="Application.Solution147" />
         <item itemvalue="Application.Solution148_2" />
-        <item itemvalue="Application.Solution148" />
-        <item itemvalue="Application.Solution16" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +141,7 @@
       <workItem from="1577672944566" duration="5312000" />
       <workItem from="1578054611927" duration="4179000" />
       <workItem from="1578396971351" duration="14316000" />
-      <workItem from="1578530033397" duration="6563000" />
+      <workItem from="1578530033397" duration="20387000" />
     </task>
     <servers />
   </component>
