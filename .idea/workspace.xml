@@ -54,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution148_2">
+  <component name="RunManager" selected="Application.Solution204">
     <configuration name="Solution10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution10" />
       <module name="leetcode" />
@@ -69,15 +69,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution148_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution148_2" />
+    <configuration name="Solution14_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution14_2" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution14_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution14_2" />
+    <configuration name="Solution204" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution204" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,19 +91,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution148_2" />
       <item itemvalue="Application.Solution147" />
       <item itemvalue="Application.Solution572" />
       <item itemvalue="Application.Solution10" />
       <item itemvalue="Application.Solution14_2" />
+      <item itemvalue="Application.Solution204" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution204" />
         <item itemvalue="Application.Solution14_2" />
         <item itemvalue="Application.Solution10" />
         <item itemvalue="Application.Solution572" />
         <item itemvalue="Application.Solution147" />
-        <item itemvalue="Application.Solution148_2" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +138,8 @@
       <workItem from="1578396971351" duration="14316000" />
       <workItem from="1578530033397" duration="21995000" />
       <workItem from="1578969885045" duration="2044000" />
+      <workItem from="1579157215198" duration="409000" />
+      <workItem from="1579161619569" duration="2022000" />
     </task>
     <servers />
   </component>
