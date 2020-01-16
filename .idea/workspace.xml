@@ -54,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Solution148_2">
     <configuration name="Solution10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution10" />
       <module name="leetcode" />
@@ -136,7 +136,8 @@
       <workItem from="1577672944566" duration="5312000" />
       <workItem from="1578054611927" duration="4179000" />
       <workItem from="1578396971351" duration="14316000" />
-      <workItem from="1578530033397" duration="21896000" />
+      <workItem from="1578530033397" duration="21995000" />
+      <workItem from="1578969885045" duration="2044000" />
     </task>
     <servers />
   </component>
