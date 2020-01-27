@@ -2,7 +2,7 @@ public class Solution200_3 {
     /**
      * 并查集
      * Runtime: 5 ms, faster than 16.45% of Java online submissions for Number of Islands.
-     * Memory Usage: 42.1 MB, less than 33.49% of Java online submissions for Number of Islands.
+     * Memory Usage: 42.2 MB, less than 24.19% of Java online submissions for Number of Islands.
      * @param grid
      * @return
      */
@@ -10,7 +10,7 @@ public class Solution200_3 {
         int m = grid.length;
         if (m == 0) return 0;
         int n = grid[0].length;
-        UnionFind unionFind = new UnionFind(m * n);
+        UnionFind unionFind = new UnionFind(grid, m, n);
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == '1') {
@@ -26,12 +26,7 @@ public class Solution200_3 {
                 }
             }
         }
-        int ans = 0;
-        for (int index = 0; index < unionFind.parent.length; index++) {
-            int i = index / n, j = index % n;
-            if (unionFind.parent[index] == index && grid[i][j] == '1') ans++;
-        }
-        return ans;
+        return unionFind.count;
     }
 
     public static class UnionFind {
@@ -40,14 +35,18 @@ public class Solution200_3 {
         private int size;
         private int count;
 
-        public UnionFind(int size) {
-            this.size = size;
-            this.count = size;
+        public UnionFind(char[][] grid, int m, int n) {
+            this.size = m * n;
             parent = new int[size];
             weight = new int[size];
-            for (int i = 0; i < size; i++) {
-                parent[i] = i;
-                weight[i] = 1;
+
+            for (int i = 0; i < m; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (grid[i][j] == '1') count++;
+                    int index = i * n + j;
+                    parent[index] = index;
+                    weight[index] = 1;
+                }
             }
         }
 
