@@ -1,45 +1,4 @@
 public class Solution547 {
-    class UnionFind {
-        int[] parent;
-        int[] weight;
-        int size;
-        int count;
-
-        UnionFind(int size) {
-            this.size = size;
-            this.count = size;
-            parent = new int[size];
-            weight = new int[size];
-            for (int i = 0; i < size; i++) {
-                parent[i] = i;
-                weight[i] = 1;
-            }
-        }
-
-        int find(int element) {
-//            while (element != parent[element]) {
-//                parent[element] = parent[parent[element]];
-//                element = parent[element];
-//            }
-//            return element;
-            if (element != parent[element]) parent[element] = find(parent[element]);
-            return parent[element];
-        }
-
-        void union(int firstEle, int secondEle) {
-            int firstRoot = find(firstEle);
-            int secondRoot = find(secondEle);
-            if (firstRoot == secondRoot) return;
-            if (weight[firstRoot] > weight[secondRoot]) {
-                parent[secondRoot] = firstRoot;
-                weight[firstRoot] += weight[secondRoot];
-            } else {
-                parent[firstRoot] = secondRoot;
-                weight[secondRoot] += weight[firstRoot];
-            }
-            count--;
-        }
-    }
 
     /**
      * 并查集解法（基于重量的合并与路径压缩）
@@ -60,5 +19,43 @@ public class Solution547 {
             }
         }
         return unionFind.count;
+    }
+
+    public static class UnionFind {
+        private int[] parent;
+        private int[] weight;
+        private int size;
+        private int count;
+
+        public UnionFind(int size) {
+            this.size = size;
+            this.count = size;
+            parent = new int[size];
+            weight = new int[size];
+            for (int i = 0; i < size; i++) {
+                parent[i] = i;
+                weight[i] = 1;
+            }
+        }
+
+        public int find(int element) {
+            if (element != parent[element]) parent[element] = find(parent[element]);
+            return parent[element];
+        }
+
+        public void union(int firstEle, int secondEle) {
+            int firstRoot = find(firstEle);
+            int secondRoot = find(secondEle);
+            if (firstRoot != secondRoot) {
+                if (weight[firstRoot] < weight[secondRoot]) {
+                    int temp = firstRoot;
+                    firstRoot = secondRoot;
+                    secondRoot = temp;
+                }
+                parent[secondRoot] = firstRoot;
+                weight[firstRoot] += weight[secondRoot];
+                count--;
+            }
+        }
     }
 }
