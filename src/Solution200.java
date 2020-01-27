@@ -1,6 +1,13 @@
 public class Solution200 {
     int ans = 0;
-    // 深度优先
+
+    /**
+     * 深度优先遍历
+     * Runtime: 1 ms, faster than 99.99% of Java online submissions for Number of Islands.
+     * Memory Usage: 41.9 MB, less than 46.98% of Java online submissions for Number of Islands.
+     * @param grid
+     * @return
+     */
     public int numIslands(char[][] grid) {
         int[][] dir = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
         int m = grid.length;
@@ -20,7 +27,6 @@ public class Solution200 {
     public void recursion(char[][] grid, int[][] dir, int i, int j, int m, int n) {
         if (i < 0 || i >= m || j < 0 || j >= n) return;
         if (grid[i][j] == '0' || grid[i][j] == '2') return;
-        System.out.println("(" + i + ", " + j + ")");
         grid[i][j] = '2';
         recursion(grid, dir, i + dir[0][0], j + dir[0][1], m, n);
         recursion(grid, dir, i + dir[1][0], j + dir[1][1], m, n);

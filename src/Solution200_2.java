@@ -1,21 +1,24 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Solution200_2 {
-    class Element {
+class Solution200_2 {
+    static class Element {
         int row, column;
         Element(int row, int column) {
             this.row = row;
             this.column = column;
         }
-
-        @Override
-        public String toString() {
-            return "(" + row + ", " + column + ")";
-        }
     }
+
     int ans = 0;
-    // 广度优先（队列）
+
+    /**
+     * 广度优先遍历（队列）
+     * Runtime: 5 ms, faster than 16.45% of Java online submissions for Number of Islands.
+     * Memory Usage: 42 MB, less than 45.12% of Java online submissions for Number of Islands.
+     * @param grid
+     * @return
+     */
     public int numIslands(char[][] grid) {
         int[][] dir = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
         int m = grid.length;
@@ -32,7 +35,6 @@ public class Solution200_2 {
                     while (!queue.isEmpty()) {
                         Element element = queue.poll();
                         int cur_i = element.row, cur_j = element.column;
-                        System.out.println(element.toString());
                         if (cur_i < m - 1) {
                             next_i = cur_i + dir[0][0];
                             next_j = cur_j + dir[0][1];
@@ -70,16 +72,5 @@ public class Solution200_2 {
             }
         }
         return ans;
-    }
-
-    public static void main(String[] args) {
-        Solution200_2 solution200_2 = new Solution200_2();
-        char[][] grid = {
-                {'1', '1', '1', '1', '0'},
-                {'1', '1', '0', '1', '0'},
-                {'1', '1', '0', '0', '0'},
-                {'1', '1', '1', '1', '1'},
-        };
-        solution200_2.numIslands(grid);
     }
 }
