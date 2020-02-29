@@ -19,7 +19,7 @@ public class Solution3 {
                 set.add(s.charAt(j++));
                 ans = Math.max(ans, j - i);
             } else {
-                set.remove(s.charAt(i++));
+                set.remove(s.charAt(i++)); // i 自增，表示以位置 i 为开头的最长不重复子串计算结束
             }
             ans = Math.max(ans, set.size());
         }
