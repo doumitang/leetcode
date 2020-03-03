@@ -4,6 +4,7 @@ import java.util.List;
 public class Solution438_2 {
     /**
      * 双指针滑动窗口，关键在于记录 p 中每个字符的个数，以及 s 中还需要的字符个数 need
+     * 时间 O(n)，空间 O(sizeof(charset))
      * Runtime: 4 ms, faster than 99.17% of Java online submissions for Find All Anagrams in a String.
      * Memory Usage: 41.3 MB, less than 6.00% of Java online submissions for Find All Anagrams in a String.
      * @param s
