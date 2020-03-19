@@ -15,7 +15,7 @@ public class Solution416 {
         }
         if ((sum & 1) == 1) return false;
         int target = sum / 2;
-        boolean[] dp = new boolean[sum + 1];
+        boolean[] dp = new boolean[target + 1];
         dp[0] = true;
         for (int i = 0; i < nums.length; i++) {
             // 倒序遍历的原因是因为每个数只能用一次
