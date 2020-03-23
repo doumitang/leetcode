@@ -2,7 +2,7 @@ public class Solution10 {
 
     /**
      * 正则表达式匹配问题
-     * 可以很容易从这样的递归写法中看出，存在最优子结构，因此可改写为dp保存中间结果
+     * 可以很容易从这样的递归写法中看出，存在重叠子问题，因此可改写为dp保存中间结果
      * Runtime: 9 ms, faster than 35.85% of Java online submissions for Regular Expression Matching.
      * Memory Usage: 36.4 MB, less than 100.00% of Java online submissions for Regular Expression Matching.
      * @param s
