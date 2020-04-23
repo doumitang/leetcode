@@ -19,4 +19,10 @@ public class Solution739_2 {
         }
         return ans;
     }
+
+    public static void main(String[] args) {
+        Solution739_2 solution739_2 = new Solution739_2();
+        int[] T = {1, 2, 1, 3};
+        solution739_2.dailyTemperatures(T);
+    }
 }
