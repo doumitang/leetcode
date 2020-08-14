@@ -1,12 +1,9 @@
-import java.util.Arrays;
-
 public class Solution55 {
     public boolean canJump(int[] nums) {
         if (nums.length <= 1) return true;
         int target = nums.length - 1;
         boolean[] dp = new boolean[nums.length - 1];
         for (int i = target - 1; i >= 0; i--) {
-//            System.out.println(i);
             if (nums[i] >= target - i) {
                 dp[i] = true;
                 continue;
@@ -18,7 +15,6 @@ public class Solution55 {
                 }
             }
         }
-//        System.out.println(Arrays.toString(dp));
         return dp[0];
     }
 
